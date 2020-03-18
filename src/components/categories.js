@@ -3,6 +3,11 @@ import { Link } from "gatsby"
 
 const categories = [
   {
+    url: "/",
+    name: "Inicio",
+    emoji: "🏠",
+  },
+  {
     url: "juegos",
     name: "Juegos",
     emoji: "👾",
@@ -23,8 +28,8 @@ const categories = [
     emoji: "🎸",
   },
   {
-    url: "aprender",
-    name: "Aprender",
+    url: "formacion",
+    name: "Formación",
     emoji: "📖",
   },
   {

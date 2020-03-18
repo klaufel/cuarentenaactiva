@@ -27,11 +27,12 @@ const Authors = () => (
       const { name, icon, twitter, linkedin } = author
       return (
         <p>
-          {icon} {name}
+          <span role="img">{icon}</span> {name}
           {linkedin && (
             <a
               href={`https://www.linkedin.com/in/${linkedin}`}
               target="_blank"
+              rel="noopener noreferrer"
               style={{ marginLeft: "8px" }}
             >
               <svg
@@ -49,6 +50,7 @@ const Authors = () => (
             <a
               href={`https://twitter.com/${twitter}`}
               target="_blank"
+              rel="noopener noreferrer"
               style={{ marginLeft: "8px" }}
             >
               <svg
