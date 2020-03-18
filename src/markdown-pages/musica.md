@@ -1,7 +1,6 @@
 ---
 path: "/musica"
-date: "2019-05-04"
-title: ""
+title: "🎸 Perdona, ¿tú bailas?"
 ---
 
 https://www.guitarraviva.com/curso-de-guitarra-para-principiantes/

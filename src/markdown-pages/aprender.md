@@ -1,16 +1,10 @@
 ---
 path: "/aprender"
-date: "2019-05-04"
-title: "Aprovecha para aprender algo nuevo"
+title: "📖 Aprovecha para aprender algo nuevo"
 ---
 
-https://freeditorial.com/es
+#### Cursos on-line gratuitos
 
-Las 26 revistas de eldiario.es GRATIS en EPUB para iPad, Android y Kindle
+¡Sal de la cuarentena mucho más sabio! Te dejamos enlaces a cursos gratuitos
 
-https://www.eldiario.es/redaccion/Abrimos-todas-revistas-monograficas-online_6_1006559352.html
-
-James Rhodes nos ofrece gratuitamente su libro Instrumental. enlace de dropbox al libro
-
-Revistas Vogue, Vanity Fair, Glamour, AD, GQ, gratuitas en formato descargable PDF 
-
+- Desde Domestika nos animan a que no dejes de aprender y que sigas desarrollando tu lado más creativo. Aquí tienes una selección de cursos gratis para que empieces ahora mismo [https://www.domestika.org/quedateencasa](https://www.domestika.org/quedateencasa)
