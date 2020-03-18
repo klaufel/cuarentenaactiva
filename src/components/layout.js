@@ -32,7 +32,15 @@ const Layout = ({ children }) => {
         <footer className="Footer">
           <div className="Footer-item">
             <span>
-              Con ❤️ desde 🏠 <small>#QuedateEnCasa</small>
+              Con{" "}
+              <span role="img" aria-label="Amor">
+                ❤️
+              </span>{" "}
+              desde{" "}
+              <span role="img" aria-label="Casa">
+                🏠
+              </span>{" "}
+              <small>#QuedateEnCasa</small>
             </span>
           </div>
           <div className="Footer-item">

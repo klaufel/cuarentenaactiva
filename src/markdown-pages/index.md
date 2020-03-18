@@ -4,7 +4,7 @@ date: "2020-03-18"
 title: "¡¡Hola amigo en cuarentena!!"
 ---
 
-Sabemos que son tiempos complicados y que es posible que necesites gestionar de algún modo el tiempo que vas a pasar en casa. 
+Sabemos que son tiempos complicados y que es posible que necesites gestionar de algún modo el tiempo que vas a pasar en casa.
 
 Desde aquí queremos ofrecerte alternativas para que disfrutes de este tiempo, desde cursos, llamadas en grupo, hasta eventos en directo.
 

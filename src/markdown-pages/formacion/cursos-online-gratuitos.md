@@ -4,7 +4,6 @@ date: "2020-03-18"
 title: "Cursos online gratuitos"
 ---
 
-
 ¡Sal de la cuarentena mucho más sabio! Sólamente debes hacer click en estos enlaces a cursos gratuitos
 
 - Desde [Domestika](https://www.domestika.org/quedateencasa) nos animan a que no dejes de aprender y que sigas desarrollando tu lado más creativo. [Aquí tienes una selección de cursos gratis para que empieces ahora mismo](https://www.domestika.org/quedateencasa)
