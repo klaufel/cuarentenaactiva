@@ -1,5 +1,6 @@
 ---
 path: "/peliculas"
+date: "2020-03-18"
 title: "🎥 ¿Sofá, peli y manta?"
 ---
 
