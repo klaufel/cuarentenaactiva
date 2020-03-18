@@ -10,9 +10,10 @@ import PropTypes from "prop-types"
 import { useStaticQuery, graphql, Link } from "gatsby"
 import Categories from "./categories"
 import Header from "./header"
+import { Breadcrumb } from 'gatsby-plugin-breadcrumb'
 import "./layout.css"
 
-const Layout = ({ children }) => {
+const Layout = ({ location, crumbLabel, children }) => {
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
       site {
@@ -28,6 +29,8 @@ const Layout = ({ children }) => {
       <Header siteTitle={data.site.siteMetadata.title} />
       <Categories />
       <div className="Container">
+        {location} {crumbLabel}
+
         <main className="Main">{children}</main>
         <footer className="Footer">
           <div className="Footer-item">

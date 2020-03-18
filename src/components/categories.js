@@ -37,6 +37,11 @@ const categories = [
     name: "Peques",
     emoji: "👼",
   },
+  {
+    url: "voluntariado",
+    name: "Voluntariado",
+    emoji: "🧸",
+  },
 ]
 
 const Categories = () => (

@@ -10,8 +10,9 @@ export default function Template({
 }) {
   const { markdownRemark } = data // data.markdownRemark holds your post data
   const { frontmatter, html } = markdownRemark
+    console.log(frontmatter);
   return (
-    <Layout>
+    <Layout location={frontmatter.path} crumbLabel={frontmatter.title}>
       <SEO title={frontmatter.title} />
       <h1>{frontmatter.title}</h1>
       {/*<h2>{frontmatter.date}</h2>*/}
