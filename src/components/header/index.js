@@ -3,7 +3,7 @@ import { StaticQuery, Link } from "gatsby"
 import { graphql } from "gatsby"
 import PropTypes from "prop-types"
 
-import Search from "./search"
+import Search from "../search"
 
 const Header = ({ siteTitle }) => (
   <StaticQuery

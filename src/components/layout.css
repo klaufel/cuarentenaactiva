@@ -1,3 +1,12 @@
+:root {
+  --color-yellow: #FCDC74;
+  --color-blue-dark: #192965;
+  --color-blue-normal: #91CEFF;
+  --color-blue-light: #F8FCFF;
+  --color-dark: #000000;
+  --color-light: #ffffff;
+}
+
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -647,4 +656,11 @@ pre tt:after {
   padding: 20px 0;
   display: flex;
   justify-content: space-between;
+}
+
+
+.Button {
+  padding: 20px;
+  display: flex;
+  background: var(--color-blue-normal);
 }
