@@ -5,7 +5,7 @@ import SEO from "../components/seo"
 import { Link } from "gatsby"
 
 const NotFoundPage = () => (
-  <Layout location='/' crumbLabel=''>
+  <Layout location="/" crumbLabel="">
     <SEO title="404: Página no encontrada" />
     <h1>Página no encontrada</h1>
     <Link to="/">Volver a la página de inicio</Link>

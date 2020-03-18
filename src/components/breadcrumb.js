@@ -11,7 +11,9 @@ const Breadcrumb = ({ location, label }) => {
   return (
     <div className="Breadcrumb">
       <div className="Breadcrumb-item">
-        <Link className="Breadcrumb-link" to={"/"}>🏠 Inicio</Link>
+        <Link className="Breadcrumb-link" to={"/"}>
+          <span role="img" aria-label="Casa">🏠</span> Inicio
+        </Link>
       </div>
       {breads.map(bread => {
         url = bread && `${url}/${bread}`
@@ -20,9 +22,13 @@ const Breadcrumb = ({ location, label }) => {
           bread && (
             <div className="Breadcrumb-item">
               {url === location ? (
-                <span className="Breadcrumb-link Breadcrumb-link--current">{(urlFound && urlFound.name) || label || bread}</span>
+                <span className="Breadcrumb-link Breadcrumb-link--current">
+                  {(urlFound && urlFound.name) || label || bread}
+                </span>
               ) : (
-                <Link className="Breadcrumb-link" to={url}>{(urlFound && urlFound.name) || bread}</Link>
+                <Link className="Breadcrumb-link" to={url}>
+                  {(urlFound && urlFound.name) || bread}
+                </Link>
               )}
             </div>
           )

@@ -36,6 +36,7 @@ export const pageQuery = graphql`
       frontmatter {
         date(formatString: "MMMM DD, YYYY")
         path
+        tags
         title
       }
     }

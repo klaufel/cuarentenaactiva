@@ -1,0 +1,15 @@
+.Search {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.Search-results {
+  position: absolute;
+  top: 100%;
+  background: #fff;
+  list-style: none;
+  padding: 8px;
+  margin: 0;
+  border: 1px solid #ccc;
+}

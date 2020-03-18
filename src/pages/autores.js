@@ -21,7 +21,7 @@ const authors = [
 ]
 
 const Authors = () => (
-  <Layout location='/autores' crumbLabel='Autores'>
+  <Layout location="/autores" crumbLabel="Autores">
     <SEO title="Todas estas personas lo hacen posible" />
     <h1>Una idea de...</h1>
     {authors.map(author => {

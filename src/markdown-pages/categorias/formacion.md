@@ -1,6 +1,7 @@
 ---
 path: "/formacion"
 date: "2020-03-18"
+tags: "formación"
 title: "📖 Aprovecha para aprender algo nuevo"
 ---
 

@@ -686,6 +686,12 @@ pre tt:after {
   background: rebeccapurple;
 }
 
+.Header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .Main {
   padding: 20px 0;
 }
