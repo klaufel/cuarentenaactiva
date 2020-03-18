@@ -623,12 +623,29 @@ pre tt:after {
 
 .Categories {
   width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 40px;
+  padding: 8px 0;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #eee;
 }
 
+@media(min-width: 768px) {
+  .Categories {
+    margin-bottom: 40px;
+  }
+}
+
+.Categories-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content:center;
+}
+
+@media(min-width: 768px) {
+  .Categories-container {
+    justify-content: space-between;
+  }
+}
 
 .Categories-link {
   text-align: center;
@@ -637,7 +654,7 @@ pre tt:after {
   color: #000;
   border-radius: 8px;
   transition: background .3s;
-  margin: 0 8px;
+  margin: 8px;
 }
 
 .Categories-link:hover {
@@ -656,4 +673,26 @@ pre tt:after {
   display: block;
   color: #000;
   transition: color .3s;
+}
+
+.Container {
+  margin: 0 auto;
+  max-width: 960px;
+  padding: 0 30px;
+}
+
+.Header {
+  padding: 40px 0;
+  background: rebeccapurple;
+}
+
+.Main {
+  padding: 20px 0;
+}
+
+.Footer {
+  border-top: 1px solid #eee;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
 }

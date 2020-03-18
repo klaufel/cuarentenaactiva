@@ -19,18 +19,21 @@ export default function Template({
         className="blog-post-content"
         dangerouslySetInnerHTML={{ __html: html }}
       />
-        <br/><br/><br/>
-      <Link to="/">Volver a inicio</Link>
-        <br/><br/>
+      <br />
+      <br />
+      <br />
+      <Link to="/">Volver a la página de inicio</Link>
+      <br />
+      <br />
     </Layout>
   )
 }
+
 export const pageQuery = graphql`
   query($path: String!) {
     markdownRemark(frontmatter: { path: { eq: $path } }) {
       html
       frontmatter {
-        date(formatString: "MMMM DD, YYYY")
         path
         title
       }

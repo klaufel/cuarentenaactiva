@@ -7,8 +7,8 @@
 
 import React from "react"
 import PropTypes from "prop-types"
-import { useStaticQuery, graphql } from "gatsby"
-
+import { useStaticQuery, graphql, Link } from "gatsby"
+import Categories from "./categories"
 import Header from "./header"
 import "./layout.css"
 
@@ -26,15 +26,19 @@ const Layout = ({ children }) => {
   return (
     <>
       <Header siteTitle={data.site.siteMetadata.title} />
-      <div
-        style={{
-          margin: `0 auto`,
-          maxWidth: 960,
-          padding: `0 1.0875rem 1.45rem`,
-        }}
-      >
-        <main>{children}</main>
-        <footer>Desarrollado con ❤️ desde 🏠 #quedateEnCasa</footer>
+      <Categories />
+      <div className="Container">
+        <main className="Main">{children}</main>
+        <footer className="Footer">
+          <div className="Footer-item">
+            <span>
+              Con ❤️ desde 🏠 <small>#QuedateEnCasa</small>
+            </span>
+          </div>
+          <div className="Footer-item">
+            <Link to="/autores">Autores</Link>
+          </div>
+        </footer>
       </div>
     </>
   )
