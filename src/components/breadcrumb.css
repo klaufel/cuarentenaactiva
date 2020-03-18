@@ -1,0 +1,28 @@
+.Breadcrumb {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.Breadcrumb-item:not(:last-of-type) {
+  padding-right: 8px;
+}
+
+.Breadcrumb-item:not(:first-of-type)::before {
+  content: '<';
+  padding-right: 8px;
+  opacity: .5;
+}
+
+.Breadcrumb-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.Breadcrumb-link:not(span):hover {
+  text-decoration: underline;
+}
+
+.Breadcrumb-link--current {
+  font-weight: 700;
+}

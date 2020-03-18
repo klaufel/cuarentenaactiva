@@ -10,7 +10,7 @@ import PropTypes from "prop-types"
 import { useStaticQuery, graphql, Link } from "gatsby"
 import Categories from "./categories"
 import Header from "./header"
-import { Breadcrumb } from 'gatsby-plugin-breadcrumb'
+import Breadcrumb from "./breadcrumb"
 import "./layout.css"
 
 const Layout = ({ location, crumbLabel, children }) => {
@@ -29,8 +29,7 @@ const Layout = ({ location, crumbLabel, children }) => {
       <Header siteTitle={data.site.siteMetadata.title} />
       <Categories />
       <div className="Container">
-        {location} {crumbLabel}
-
+        <Breadcrumb location={location} label={crumbLabel} />
         <main className="Main">{children}</main>
         <footer className="Footer">
           <div className="Footer-item">

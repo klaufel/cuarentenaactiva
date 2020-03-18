@@ -1,12 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 
-const categories = [
-  {
-    url: "/",
-    name: "Inicio",
-    emoji: "🏠",
-  },
+export const categories = [
   {
     url: "juegos",
     name: "Juegos",
