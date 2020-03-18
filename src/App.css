@@ -1,0 +1,26 @@
+.App {
+  text-align: center;
+}
+
+body {
+  background-color: #282c34;
+  color: white;
+}
+
+.App-logo {
+  font-size: 40px;
+  margin-bottom: 60px;
+}
+
+.App-content {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.App-item {
+  width: 33%;
+}
