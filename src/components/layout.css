@@ -620,3 +620,40 @@ pre tt:after {
     font-size: 100%;
   }
 }
+
+.Categories {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+
+.Categories-link {
+  text-align: center;
+  padding: 8px 16px;
+  text-decoration: none;
+  color: #000;
+  border-radius: 8px;
+  transition: background .3s;
+  margin: 0 8px;
+}
+
+.Categories-link:hover {
+  background-color: #eee;
+}
+.Categories-link[aria-current='page'] {
+  background-color: #eee;
+}
+
+.Categories-link[aria-current='page'] .Categories-title {
+  color: rebeccapurple;
+}
+
+.Categories-icon,
+.Categories-title {
+  display: block;
+  color: #000;
+  transition: color .3s;
+}
