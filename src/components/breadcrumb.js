@@ -12,7 +12,10 @@ const Breadcrumb = ({ location, label }) => {
     <div className="Breadcrumb">
       <div className="Breadcrumb-item">
         <Link className="Breadcrumb-link" to={"/"}>
-          <span role="img" aria-label="Casa">🏠</span> Inicio
+          <span role="img" aria-label="Casa">
+            🏠
+          </span>{" "}
+          Inicio
         </Link>
       </div>
       {breads.map(bread => {
