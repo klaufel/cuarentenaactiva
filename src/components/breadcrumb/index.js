@@ -1,7 +1,7 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { Link } from "gatsby"
-import categories from "../categories/categories"
+import { categoriesList } from "../categories/categoriesList"
 import "./breadcrumb.css"
 
 const BreadCrumb = ({ location, label }) => {
@@ -19,7 +19,7 @@ const BreadCrumb = ({ location, label }) => {
       </li>
       {breads.map(bread => {
         url = bread && `${url}/${bread}`
-        const urlFound = categories.find(element => element.url === bread)
+        const urlFound = categoriesList.find(element => element.url === bread)
         return (
           bread && (
             <li className="Breadcrumb-item">

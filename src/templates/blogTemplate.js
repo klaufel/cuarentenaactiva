@@ -5,10 +5,8 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-export default function Template({
-  data, // this prop will be injected by the GraphQL query below.
-}) {
-  const { markdownRemark } = data // data.markdownRemark holds your post data
+export default function Template({ data }) {
+  const { markdownRemark } = data
   const { frontmatter, html } = markdownRemark
   return (
     <Layout location={frontmatter.path} crumbLabel={frontmatter.title}>

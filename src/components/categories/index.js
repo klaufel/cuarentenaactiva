@@ -1,11 +1,12 @@
 import React from "react"
 import { Link } from "gatsby"
-import categories from "./categories"
+import { categoriesList } from "./categoriesList"
+import "./categories.css"
 
 const Categories = () => (
   <div className="Categories">
     <div className="Container Categories-container">
-      {categories.map(category => (
+      {categoriesList.map(category => (
         <Link className="Categories-link" to={category.url}>
           <span className="Categories-icon" role="img">
             {category.emoji}
