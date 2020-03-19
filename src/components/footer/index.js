@@ -8,8 +8,7 @@ const Footer = () => (
         Gracias a todos los que compartís contenido 🙏🏻
       </p>
       <p className="Footer-item">
-        Hecho con ❤️ por una panda de frikis. {new Date().getFullYear()}{" "}
-        #QuedateEnCasa #COVID-19
+        Hecho con ❤️ desde 🏠 #QuedateEnCasa #COVID-19
       </p>
     </div>
   </footer>

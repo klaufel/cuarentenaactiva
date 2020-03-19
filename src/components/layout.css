@@ -675,3 +675,19 @@ pre tt:after {
   justify-content: space-between;
   padding: 16px 0;
 }
+
+a {
+  color: var(--color-blue-dark);
+  text-decoration: none;
+  transition: color .2s;
+}
+
+a:hover {
+  color: var(--color-blue-normal);
+}
+
+.Emoji {
+  font-size: 100px;
+  line-height: 1;
+  display: block;
+}

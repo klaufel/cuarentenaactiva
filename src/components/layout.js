@@ -11,6 +11,7 @@ import { useStaticQuery, graphql } from "gatsby"
 import Header from "./header"
 import BreadCrumb from "./breadcrumb"
 import Searcher from "./searcher"
+import Sitemap from "./sitemap"
 import Footer from "./footer"
 import "./layout.css"
 import Block from "./block"
@@ -68,6 +69,7 @@ const Layout = ({ location, crumbLabel, children }) => {
           </div>
         </div>
       </div>
+      <Sitemap />
       <Footer />
     </>
   )

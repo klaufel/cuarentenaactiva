@@ -1,0 +1,18 @@
+.Sitemap {
+    padding: 40px 0;
+}
+
+
+.Sitemap-list {
+    max-width: 680px;
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.Sitemap-link {
+    color: var(--color-blue-dark);
+    text-decoration: none;
+}

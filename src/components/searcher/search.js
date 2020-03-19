@@ -21,7 +21,7 @@ export default class Search extends Component {
             type="text"
             value={this.state.query}
             onChange={this.search}
-            placeholder="¿Qué necesitas?"
+            placeholder="Busca un plan..."
           />
           <div className="Input-icon">🔍</div>
         </div>

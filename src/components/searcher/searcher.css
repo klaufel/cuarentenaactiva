@@ -3,7 +3,7 @@
 }
 
 .Input-field {
-    border: 1px solid var(--color-blue-normal);
+    border: 1px solid var(--color-blue-dark);
     background: var(--color-light);
     font-size: 16px;
     font-family: inherit;
@@ -11,19 +11,28 @@
     appearance: none;
     height: 40px;
     line-height: 1;
-    padding: 8px 40px 8px 8px;
+    padding: 8px 40px 8px 12px;
     min-width: 280px;
+    box-shadow: none;
+    outline: 0;
+    transition: color .2s, border-color .2s;
+}
+
+.Input-field:hover,
+.Input-field:focus {
+    box-shadow: none;
+    border-color: var(--color-blue-dark);
 }
 
 .Input-field::placeholder {
-    color: var(--color-blue-normal);
+    color: var(--color-blue-dark);
     opacity: 1;
 }
 
 .Input-icon {
     position: absolute;
     top: 50%;
-    right: 8px;
+    right: 12px;
     transform: translateY(-50%);
 }
 
@@ -39,11 +48,23 @@
 }
 
 .Search-results {
+    border-radius: 6px;
     position: absolute;
     top: 100%;
+    width: 100%;
     background: #fff;
     list-style: none;
-    padding: 8px;
+    padding: 12px;
     margin: 0;
-    border: 1px solid #ccc;
+    border: 1px solid var(--color-blue-dark);
+}
+
+.Search-results li {
+    margin: 0;
+    font-size: 14px;
+    padding: 4px 0;
+}
+
+.Search-results li:not(:last-of-type) {
+    border-bottom: 1px solid var(--color-blue-light);
 }
