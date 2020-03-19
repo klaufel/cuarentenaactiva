@@ -18,19 +18,21 @@ const BreadCrumb = ({ location, label }) => {
             Inicio
           </Link>
         </li>
-        {breads.map(bread => {
+        {breads.map((bread, index) => {
           url = bread && `${url}/${bread}`
-          const urlFound = categoriesList.find(element => element.url === `/${bread}`)
+          const urlFound = categoriesList.find(
+            element => element.url === `/${bread}`
+          )
           return (
             bread && (
-              <li className="Breadcrumb-item">
+              <li className="Breadcrumb-item" key={index}>
                 {url === location ? (
                   <span className="Breadcrumb-link Breadcrumb-link--current">
                     {(urlFound && urlFound.name) || label || bread}
                   </span>
                 ) : (
                   <Link className="Breadcrumb-link" to={url}>
-                    {(urlFound && urlFound.name) || bread}
+                    {(urlFound && urlFound.name) || bread.replace("-", " ")}
                   </Link>
                 )}
               </li>

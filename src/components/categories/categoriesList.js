@@ -1,7 +1,7 @@
 export const categoriesList = [
   {
-    url: "/para-compartir",
-    name: "Para compartir",
+    url: "/actividades",
+    name: "Actividades",
     emoji: "🎉",
   },
   {

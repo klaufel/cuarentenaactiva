@@ -1,6 +1,5 @@
 import React from "react"
 import { graphql } from "gatsby"
-import { Link } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import "./article.css"
@@ -21,9 +20,16 @@ export default function Template({ data }) {
           dangerouslySetInnerHTML={{ __html: html }}
         />
       </article>
-      <Link to="/" style={{ fontSize: "14px" }}>
-        Volver a la página de inicio
-      </Link>
+      <a
+        href="#"
+        onClick={event => {
+          event.preventDefault()
+          window.history.back()
+        }}
+        style={{ fontSize: "14px", cursor: "pointer" }}
+      >
+        Volver atrás
+      </a>
     </Layout>
   )
 }

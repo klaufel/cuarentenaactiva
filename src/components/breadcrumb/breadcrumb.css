@@ -9,7 +9,9 @@
 
 .Breadcrumb-item {
   margin: 0;
+  display: flex;
 }
+
 .Breadcrumb-item:not(:last-of-type) {
   padding-right: 8px;
 }
@@ -21,8 +23,13 @@
 }
 
 .Breadcrumb-link {
+  display: block;
   text-decoration: none;
   color: var(--color-blue-dark);
+
+}
+.Breadcrumb-link::first-letter {
+  text-transform: capitalize;
 }
 
 .Breadcrumb-link:not(span):hover {

@@ -4,6 +4,6 @@ date: "2020-03-18"
 title: "Para entretener a los peques de la casa"
 ---
 
-- [Para entrener a los pequeños y jugar](peques/para-entretener-a-los-pequenos-y-jugar)
+- [Juegos y actividades para niños](/peques/juegos-y-actividades-para-ninos)
 
-- [Para que los niños sigan aprendiendo](peques/para-que-los-ninos-sigan-aprendiendo)
+- [Aprender desde casa](/peques/aprender-desde-casa)

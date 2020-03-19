@@ -5,10 +5,10 @@ tags: "formación"
 title: "Aprovecha para aprender algo nuevo"
 ---
 
-- [Cursos on-line gratuitos](formacion/cursos-online-gratuitos)
+- [Cursos online gratuitos](/formacion/cursos-online-gratuitos)
 
-- [Aprende a tocar un instrumento y sorprende a todos después de la cuarentena](formacion/aprende-a-tocar-un-instrumento)
+- [Aprende a tocar un instrumento](/formacion/aprende-a-tocar-un-instrumento)
 
-- [Para que los niños sigan aprendiendo](formacion/para-que-los-ninos-sigan-aprendiendo)
+- [Aprende a cocinar](/formacion/aprende-a-cocinar)
 
-- [Cocina-confina-confina-cocina](formacion/cocina)
+- [Para que los niños sigan aprendiendo](/peques/aprender-desde-casa)
