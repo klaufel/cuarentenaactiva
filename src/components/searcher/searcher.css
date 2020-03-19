@@ -1,4 +1,8 @@
 .Input {
+    position: relative;
+}
+
+.Input-field {
     border: 1px solid var(--color-blue-normal);
     background: var(--color-light);
     font-size: 16px;
@@ -7,14 +11,24 @@
     appearance: none;
     height: 40px;
     line-height: 1;
-    padding: 4px 16px;
+    padding: 8px 40px 8px 8px;
     min-width: 280px;
 }
 
-.Input::placeholder {
+.Input-field::placeholder {
     color: var(--color-blue-normal);
     opacity: 1;
+}
 
+.Input-icon {
+    position: absolute;
+    top: 50%;
+    right: 8px;
+    transform: translateY(-50%);
+}
+
+.Input-icon {
+    content: '🔍';
 }
 
 .Search {

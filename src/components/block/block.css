@@ -1,0 +1,17 @@
+.Block {
+    width: calc(33% - 30px);
+    margin: 0 30px;
+    text-align: center;
+}
+
+.Block-icon {
+    display: block;
+    font-size: 72px;
+    line-height: 1;
+    margin-bottom: 8px;
+}
+
+.Block-description {
+    max-width: 260px;
+    margin: 0 auto 16px;
+}

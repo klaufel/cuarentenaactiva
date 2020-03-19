@@ -14,7 +14,7 @@ import Searcher from "./searcher"
 import Footer from "./footer"
 import "./layout.css"
 
-const Layout = ({ location, crumbLabel, children }) => {
+const Layout = ({ location, crumbLabel, fluid, children }) => {
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
       site {
@@ -30,9 +30,11 @@ const Layout = ({ location, crumbLabel, children }) => {
       <Header siteTitle={data.site.siteMetadata.title} />
       <div className="Container">
         <div className="Page-bottomBar">
-            <BreadCrumb location={location} label={crumbLabel} />
-            <Searcher />
+          <BreadCrumb location={location} label={crumbLabel} />
+          <Searcher />
         </div>
+      </div>
+      <div className={!fluid && "Container"}>
         <main className="Main">{children}</main>
       </div>
       <Footer />
@@ -42,6 +44,9 @@ const Layout = ({ location, crumbLabel, children }) => {
 
 Layout.propTypes = {
   children: PropTypes.node.isRequired,
+  location: PropTypes.string,
+  crumbLabel: PropTypes.string,
+  fluid: PropTypes.bool,
 }
 
 export default Layout

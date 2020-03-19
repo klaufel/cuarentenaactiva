@@ -4,11 +4,13 @@ date: "2020-03-18"
 title: "👼 Para entretener a los peques de la casa"
 ---
 
+## Hola mi peque, ¿está tu padre viendo porno solo?
+
+https://www.smartick.es/ (esas mates que se atascan)
+
 https://www.lingokids.com/es (clases de inglés para los pequeños)
 
 http://www.academons.com/ (el cole en casa)
-
-https://www.smartick.es/ (esas mates que se atascan)
 
 https://play.google.com/store/apps/details?id=com.bedrill.quiz.flags.capitals&hl=es (geografía)
 

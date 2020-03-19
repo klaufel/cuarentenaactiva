@@ -640,14 +640,28 @@ pre tt:after {
   padding: 0 30px;
 }
 
+.Container--fluid {
+  max-width: 100%;
+}
+
 .Main {
   padding: 20px 0;
 }
 
 .Button {
-  padding: 20px;
-  display: flex;
-  background: var(--color-blue-normal);
+  text-decoration: none;
+  padding: 8px 16px;
+  display: inline-flex;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 6px;
+  background: var(--color-yellow);
+  color: var(--color-blue-dark);
+}
+
+.Button--secondary {
+  background: var(--color-blue-dark);
+  color: var(--color-yellow);
 }
 
 

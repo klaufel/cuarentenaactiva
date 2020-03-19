@@ -15,13 +15,16 @@ export default class Search extends Component {
   render() {
     return (
       <div className="Search">
-        <input
-            className="Input"
-          type="text"
-          value={this.state.query}
-          onChange={this.search}
-          placeholder="¿Qué necesitas?"
-        />
+        <div className="Input">
+          <input
+            className="Input-field"
+            type="text"
+            value={this.state.query}
+            onChange={this.search}
+            placeholder="¿Qué necesitas?"
+          />
+          <div className="Input-icon">🔍</div>
+        </div>
         {this.state.results.length > 0 && (
           <ul className="Search-results">
             {this.state.results.map(page => (
