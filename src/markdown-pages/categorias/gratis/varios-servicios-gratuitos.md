@@ -5,6 +5,7 @@ tags: "gratis"
 title: "Varios servicios gratuitos"
 ---
 
+- [PcComponentes](https://pccom.co/AsistenciaGratuita) quiere colaborar para potenciar el trabajo desde casa y te ofrece la posibilidad de utilizar el Servicio de asistencia técnica especial gratuito por la emergencia del coronavirus.
 - [Primor](https://www.primor.eu/) ofrece envío gratuito para las compras en su web.
 - [Rakuten](https://rakuten.tv/es/lists/free-peliculas-gratis) dispone de un catálogo de películas que podrás ver de forma gratuita.
 - Entra en el perfil de Instagram de [Ia Ora Tahiti Madrid](https://www.instagram.com/iaoratahitimad/) y entérate de cómo aprender danza balinesa.

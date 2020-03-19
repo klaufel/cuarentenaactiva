@@ -22,7 +22,12 @@ const authors = [
     linkedin: "klaufel",
     twitter: "klaufel",
   },
-  { name: "Maribel Fernández", title: '[L]user and mejor persona', icon: "🤦🏻‍♀️️ ", linkedin: "maribelfernández" },
+  {
+    name: "Maribel Fernández",
+    title: "[L]user and mejor persona",
+    icon: "🤦🏻‍♀️️ ",
+    linkedin: "maribelfernández",
+  },
   {
     name: "Verónica Expósito",
     title: "Illustrator master",

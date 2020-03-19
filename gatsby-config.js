@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `#CuarentenaActiva`,
     description: `Sabemos que son tiempos complicados y que es posible que necesites gestionar de algún modo el tiempo que vas a pasar en casa.`,
-    author: ``,
+    author: `@cuarentenactiva`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -18,12 +18,12 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `gatsby-starter-default`,
-        short_name: `starter`,
+        short_name: `#CuarentenaActiva :)`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
+        background_color: `#ffffff`,
+        theme_color: `#252c64`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/favicon.png`, // This path is relative to the root of the site.
       },
     },
     {
@@ -33,6 +33,7 @@ module.exports = {
         name: `markdown-pages`,
       },
     },
+    `gatsby-transformer-remark`,
     `gatsby-plugin-catch-links`,
     {
       resolve: `gatsby-plugin-catch-links`,
@@ -59,21 +60,6 @@ module.exports = {
         filter: (node, getNode) => node.frontmatter.tags !== "exempt",
       },
     },
-    `gatsby-transformer-remark`,
-    {
-      resolve: `gatsby-transformer-remark`,
-      options: {
-        plugins: [
-          {
-            resolve: "gatsby-remark-external-links",
-            options: {
-              target: "_blank",
-              rel: "noopener noreferrer",
-            },
-          },
-        ],
-      },
-    },
     `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-transformer-remark`,
@@ -87,6 +73,20 @@ module.exports = {
           },
         ],
       },
+    },
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [
+          {
+            resolve: "gatsby-remark-external-links",
+            options: {
+              target: "_blank",
+              rel: "noopener noreferrer"
+            }
+          }
+        ]
+      }
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline

@@ -18,14 +18,7 @@ export default function HTML(props) {
         ></script>
         <script
           dangerouslySetInnerHTML={{
-            __html: `
-        
-           window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}   
-          gtag('js', new Date());    
-          
-          gtag('config', 'UA-161182927-2');
-        `,
+            __html: `window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'UA-161182927-2');`,
           }}
         ></script>
       </head>
