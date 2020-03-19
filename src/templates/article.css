@@ -1,0 +1,15 @@
+.Article {
+    margin-bottom: 60px;
+}
+
+.Article-header {
+    padding-bottom: 20px;
+}
+
+.Article-content a {
+    text-decoration: underline;
+}
+
+.Article-content ul a {
+    font-weight: 600;
+}
