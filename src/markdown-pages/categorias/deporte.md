@@ -9,3 +9,5 @@ Para que los días no se te hagan tan largos, y para que no salgamos de esta cua
 - [Streaming](deporte/streaming)
 
 - [Rutinas](deporte/rutinas)
+
+![Imágen de prueba](../images/gym.png)

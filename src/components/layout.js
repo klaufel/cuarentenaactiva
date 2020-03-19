@@ -28,7 +28,7 @@ const Layout = ({ location, crumbLabel, children }) => {
     }
   `)
 
-    console.log(location);
+  console.log(location)
   return (
     <>
       <Header siteTitle={data.site.siteMetadata.title} />
@@ -73,29 +73,29 @@ const Layout = ({ location, crumbLabel, children }) => {
       </div>
       {(!location || location === "/" || location === "") && (
         <div className="BlocksFooter">
-            <div className="Container Container--intern">
-          <div className="BlockFooter-item">
-            <h4 className="BlockFooter-title">¿Te gustaría ayudar?</h4>
-            <p className="BlockFooter-description">
-              Aquí podrás encontrar un repositorio de fundaciones y organismos
-              que necesitan de nuestra ayuda en estos momentos.
-            </p>
-            <Link className="Button Button--secondary" to="/voluntariado">
-              Ver voluntariado
-            </Link>
-          </div>
-          <div className="BlockFooter-item">
-            <h4 className="BlockFooter-title">Otro tipo de actividades</h4>
-            <p className="BlockFooter-description">
-              Aquí encontrarás varios recursos como herramientas para generar
-              contenido streaming, tips para vencer la ansiedad o agenda con
-              eventos online.
-            </p>
-            <Link className="Button Button--secondary" to="/">
-              Ver otras actividades
-            </Link>
-          </div>
+          <div className="Container Container--intern">
+            <div className="BlockFooter-item">
+              <h4 className="BlockFooter-title">¿Te gustaría ayudar?</h4>
+              <p className="BlockFooter-description">
+                Aquí podrás encontrar un repositorio de fundaciones y organismos
+                que necesitan de nuestra ayuda en estos momentos.
+              </p>
+              <Link className="Button Button--secondary" to="/voluntariado">
+                Ver voluntariado
+              </Link>
             </div>
+            <div className="BlockFooter-item">
+              <h4 className="BlockFooter-title">Otro tipo de actividades</h4>
+              <p className="BlockFooter-description">
+                Aquí encontrarás varios recursos como herramientas para generar
+                contenido streaming, tips para vencer la ansiedad o agenda con
+                eventos online.
+              </p>
+              <Link className="Button Button--secondary" to="/">
+                Ver otras actividades
+              </Link>
+            </div>
+          </div>
         </div>
       )}
       <Sitemap />
