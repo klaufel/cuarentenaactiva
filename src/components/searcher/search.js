@@ -23,7 +23,9 @@ export default class Search extends Component {
             onChange={this.search}
             placeholder="Busca un plan..."
           />
-          <div className="Input-icon">🔍</div>
+          <span className="Input-icon" role="img" aria-label="Buscar">
+            🔍
+          </span>
         </div>
         {this.state.results.length > 0 && (
           <ul className="Search-results">

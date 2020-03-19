@@ -13,8 +13,8 @@ const Home = () => (
 
     <p>
       Desde aquí queremos ofrecerte alternativas para que disfrutes de este
-      tiempo, desde cursos, llamadas en grupo, hasta eventos en directo. Esto
-      es un repositorio.
+      tiempo, desde cursos, llamadas en grupo, hasta eventos en directo. Esto es
+      un repositorio.
     </p>
 
     <p>

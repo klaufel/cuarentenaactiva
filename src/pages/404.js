@@ -14,7 +14,7 @@ const NotFoundPage = () => (
         ¡No hemos encontrado lo que buscas!
       </h1>
       <span
-          className="Emoji"
+        className="Emoji"
         role="img"
         aria-label="Página no encontrada"
         style={{

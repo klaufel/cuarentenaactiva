@@ -29,7 +29,9 @@ const Sitemap = () => (
           const { url, title } = element
           return (
             <li className="Sitemap-item">
-              <Link className="Sitemap-link" to={url}>{title}</Link>
+              <Link className="Sitemap-link" to={url}>
+                {title}
+              </Link>
             </li>
           )
         })}
