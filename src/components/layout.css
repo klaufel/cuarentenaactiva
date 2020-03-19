@@ -212,7 +212,7 @@ html {
   box-sizing: inherit;
 }
 body {
-  color: var(--color-dark);
+  color: var(--color-blue-dark);
   font-family: var(--font-family-global);
   font-weight: normal;
   word-wrap: break-word;
