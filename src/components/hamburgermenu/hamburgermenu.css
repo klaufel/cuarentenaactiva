@@ -1,0 +1,46 @@
+.HamburgerMenu {
+    margin-top: -4px;
+}
+
+@media(min-width: 768px) {
+    .HamburgerMenu {
+        display: none;
+    }
+}
+
+.HamburgerMenu-button {
+    display: block;
+    width: 32px;
+    height: 32px;
+    position: relative;
+    z-index: 20;
+    cursor: pointer;
+}
+
+.HamburgerMenu-button.isActive .HamburgerMenu-icon {
+    transform: rotate(-90deg);
+}
+
+.HamburgerMenu-icon {
+    fill: var(--color-blue-dark);
+    transition: transform .3s;
+}
+
+.HamburgerMenu-content {
+    z-index: 10;
+    width: 100vw;
+    height: calc(100vh - 42px);
+    top: 42px;
+    left: 0;
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity .3s, visibility .3s;
+    background: var(--color-light);
+    padding: 40px 0;
+}
+
+.HamburgerMenu-content.isActive {
+    opacity: 1;
+    visibility: visible;
+}

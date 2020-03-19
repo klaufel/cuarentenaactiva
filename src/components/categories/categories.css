@@ -1,11 +1,25 @@
 .Categories {
+    display: none;
     padding: 8px 0;
+}
+
+.Categories--mobile {
+    display: block;
+}
+
+@media(min-width: 768px) {
+    .Categories {
+        display: block;
+    }
+
+    .Categories--mobile {
+        display: none;
+    }
 }
 
 .Categories-list {
     display: flex;
     flex-wrap: wrap;
-
     margin: 0;
     list-style: none;
 }
@@ -19,6 +33,19 @@
 
 .Categories-item {
     margin: 2px;
+}
+
+.Categories--mobile .Categories-item {
+    width: 100%;
+    text-align: center;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+@media(min-width: 500px) {
+    .Categories--mobile .Categories-item {
+        width: 48%;
+    }
 }
 
 @media(min-width: 768px) {
@@ -36,6 +63,10 @@
     margin: 0;
     display: flex;
     color: var(--color-blue-dark);
+}
+
+.Categories--mobile .Categories-link {
+    justify-content: center;
 }
 
 .Categories-link:hover {

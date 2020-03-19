@@ -6,8 +6,14 @@
 .Header-container {
   display: flex;
   flex-wrap: wrap;
-  align-items: baseline;
+  align-items: centers;
   justify-content: space-between;
+}
+
+@media(min-width: 768px) {
+  .Header-container {
+    align-items: baseline;
+  }
 }
 
 
