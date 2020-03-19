@@ -11,3 +11,5 @@ Tanto si estás solo, compartiendo piso o con tu familia, es probable que tengas
 - [Compartamos películas o series](/actividades/actividad-en-grupo/comparte-peliculas-y-series)
 
 - [¡Música para todos!](/actividades/actividad-en-grupo/musica-para-todos)
+
+- [Juegos en grupo](/juegos/juegos-en-grupo)
