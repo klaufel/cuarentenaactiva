@@ -7,14 +7,15 @@
 
 import React from "react"
 import PropTypes from "prop-types"
-import { useStaticQuery, graphql } from "gatsby"
+import { useStaticQuery, graphql, Link } from "gatsby"
 import Header from "./header"
 import BreadCrumb from "./breadcrumb"
 import Searcher from "./searcher"
 import Sitemap from "./sitemap"
 import Footer from "./footer"
-import "./layout.css"
 import Block from "./block"
+import "./layout.css"
+import "./blockfooter.css"
 
 const Layout = ({ location, crumbLabel, children }) => {
   const data = useStaticQuery(graphql`
@@ -27,6 +28,7 @@ const Layout = ({ location, crumbLabel, children }) => {
     }
   `)
 
+    console.log(location);
   return (
     <>
       <Header siteTitle={data.site.siteMetadata.title} />
@@ -43,11 +45,11 @@ const Layout = ({ location, crumbLabel, children }) => {
         style={{
           backgroundColor: "var(--color-blue-light)",
           padding: "40px 0",
-          margin: "80px 0",
+          margin: "60px 0",
         }}
       >
         <div className="Container">
-          <div style={{ display: "flex", flexWrap: 'wrap'}}>
+          <div style={{ display: "flex", flexWrap: "wrap" }}>
             <Block
               icon="👤"
               description="¿Hoy te apetece realizar alguna actividad solo? ¡Encuentra la que necesitas!"
@@ -69,6 +71,33 @@ const Layout = ({ location, crumbLabel, children }) => {
           </div>
         </div>
       </div>
+      {(!location || location === "/" || location === "") && (
+        <div className="BlocksFooter">
+            <div className="Container Container--intern">
+          <div className="BlockFooter-item">
+            <h4 className="BlockFooter-title">¿Te gustaría ayudar?</h4>
+            <p className="BlockFooter-description">
+              Aquí podrás encontrar un repositorio de fundaciones y organismos
+              que necesitan de nuestra ayuda en estos momentos.
+            </p>
+            <Link className="Button Button--secondary" to="/voluntariado">
+              Ver voluntariado
+            </Link>
+          </div>
+          <div className="BlockFooter-item">
+            <h4 className="BlockFooter-title">Otro tipo de actividades</h4>
+            <p className="BlockFooter-description">
+              Aquí encontrarás varios recursos como herramientas para generar
+              contenido streaming, tips para vencer la ansiedad o agenda con
+              eventos online.
+            </p>
+            <Link className="Button Button--secondary" to="/">
+              Ver otras actividades
+            </Link>
+          </div>
+            </div>
+        </div>
+      )}
       <Sitemap />
       <Footer />
     </>

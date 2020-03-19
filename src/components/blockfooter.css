@@ -1,0 +1,28 @@
+.BlocksFooter {
+    display: flex;
+    margin-bottom: 60px;
+}
+
+.BlockFooter-item {
+    padding: 20px 0;
+}
+
+@media(min-width: 768px) {
+    .BlocksFooter .BlockFooter-item:nth-child(even) {
+        margin-left: auto;
+        text-align: right;
+    }
+    .BlockFooter-item {
+        max-width: 90%;
+    }
+}
+
+.BlockFooter-title {
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+
+.BlockFooter-description {
+    margin-bottom: 16px;
+}
+
