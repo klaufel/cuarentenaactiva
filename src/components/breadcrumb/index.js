@@ -20,7 +20,7 @@ const BreadCrumb = ({ location, label }) => {
         </li>
         {breads.map(bread => {
           url = bread && `${url}/${bread}`
-          const urlFound = categoriesList.find(element => element.url === bread)
+          const urlFound = categoriesList.find(element => element.url === `/${bread}`)
           return (
             bread && (
               <li className="Breadcrumb-item">

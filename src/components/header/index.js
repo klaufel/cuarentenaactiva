@@ -10,7 +10,7 @@ const Header = ({ siteTitle }) => (
       <Link to="/" className="Header-logo">
         {siteTitle} <span className="Header-logoSmile">:)</span>
       </Link>
-      <Categories />
+        {/*<Categories />*/}
     </div>
   </header>
 )
