@@ -42,12 +42,12 @@ const Layout = ({ location, crumbLabel, children }) => {
       <div
         style={{
           backgroundColor: "var(--color-blue-light)",
-          padding: "60px",
+          padding: "40px 0",
           margin: "80px 0",
         }}
       >
         <div className="Container">
-          <div style={{ display: "flex" }}>
+          <div style={{ display: "flex", flexWrap: 'wrap'}}>
             <Block
               icon="👤"
               description="¿Hoy te apetece realizar alguna actividad solo? ¡Encuentra la que necesitas!"

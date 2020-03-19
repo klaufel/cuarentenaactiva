@@ -9,7 +9,6 @@ const Footer = () => (
         <span role="img" aria-label="Rezar">
           🙏
         </span>
-        🏻
       </p>
       <p className="Footer-item">
         Hecho con{" "}

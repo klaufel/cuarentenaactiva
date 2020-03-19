@@ -11,7 +11,7 @@ export default function Template({ data }) {
   return (
     <Layout location={frontmatter.path} crumbLabel={frontmatter.title} fluid>
       <SEO title={frontmatter.title} />
-      <div className="Container Container--intern">
+
         <article className="Article">
           <header className="Article-header">
             <h1>{frontmatter.title}</h1>
@@ -24,7 +24,7 @@ export default function Template({ data }) {
         <Link to="/" style={{ fontSize: "14px" }}>
           Volver a la página de inicio
         </Link>
-      </div>
+
     </Layout>
   )
 }

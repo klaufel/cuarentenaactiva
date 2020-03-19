@@ -4,10 +4,21 @@
 
 .Categories-list {
     display: flex;
-    flex-wrap: nowrap;
-    align-items: center;
-    justify-content:center;
+    flex-wrap: wrap;
+
     margin: 0;
+    list-style: none;
+}
+
+@media(min-width: 768px) {
+    .Categories-list {
+        align-items: center;
+        justify-content:center;
+    }
+}
+
+.Categories-item {
+    margin: 2px;
 }
 
 @media(min-width: 768px) {
@@ -18,7 +29,7 @@
 
 .Categories-link {
     font-size: 16px;
-    padding: 8px 12px;
+    padding: 8px 10px;
     text-decoration: none;
     border-radius: 6px;
     transition: color .3s, background .3s;

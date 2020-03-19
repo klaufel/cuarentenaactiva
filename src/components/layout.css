@@ -637,11 +637,18 @@ pre tt:after {
 .Container {
   margin: 0 auto;
   max-width: 1200px;
-  padding: 0 30px;
+  padding: 0 20px;
+}
+
+@media(min-width: 768px) {
+  .Container {
+  padding-left: 30px;
+  padding-right: 30px;
+  }
 }
 
 .Container--intern {
-  max-width: 960px;
+  max-width: 890px;
 }
 
 .Container--fluid {
@@ -671,9 +678,16 @@ pre tt:after {
 
 .Page-bottomBar {
   display: flex;
-  align-items: center;
   justify-content: space-between;
   padding: 16px 0;
+  flex-direction: column-reverse;
+}
+
+@media(min-width: 768px) {
+  .Page-bottomBar {
+    align-items: center;
+    flex-direction: row;
+  }
 }
 
 a {
