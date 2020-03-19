@@ -6,8 +6,8 @@ import "./categories.css"
 const Categories = () => (
   <nav className="Categories">
     <ul className="Categories-list">
-      {categoriesList.map(category => (
-        <li className="Categories-item">
+      {categoriesList.map((category, index) => (
+        <li className="Categories-item" key={index}>
           <Link className="Categories-link" to={category.url}>
             <span className="Categories-icon" role="img" aria-label="Casa">
               {category.emoji}
