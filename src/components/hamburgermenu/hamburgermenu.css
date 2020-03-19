@@ -28,7 +28,6 @@
 
 .HamburgerMenu-content {
     z-index: 10;
-    width: 100vw;
     height: calc(100vh - 42px);
     top: 42px;
     left: 0;
