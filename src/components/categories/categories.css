@@ -1,22 +1,13 @@
-
 .Categories {
-    width: 100%;
     padding: 8px 0;
-    margin-bottom: 20px;
-    border-bottom: 1px solid #eee;
 }
 
-@media(min-width: 768px) {
-    .Categories {
-        margin-bottom: 40px;
-    }
-}
-
-.Categories-container {
+.Categories-list {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     align-items: center;
     justify-content:center;
+    margin: 0;
 }
 
 @media(min-width: 768px) {
@@ -26,29 +17,32 @@
 }
 
 .Categories-link {
-    text-align: center;
-    padding: 8px 16px;
+    font-size: 16px;
+    padding: 8px 12px;
     text-decoration: none;
-    color: #000;
-    border-radius: 8px;
-    transition: background .3s;
-    margin: 8px;
+    border-radius: 6px;
+    transition: color .3s, background .3s;
+    margin: 0;
+    display: flex;
+    color: var(--color-blue-dark);
+}
+
+.Categories-link:not(:last-of-type) {
+    margin-right: 8px;
+}
+
+.Categories-link:not(:first-of-type) {
+    margin-left: 8px;
 }
 
 .Categories-link:hover {
-    background-color: #eee;
+    background-color: var(--color-yellow);
 }
+
 .Categories-link[aria-current='page'] {
-    background-color: #eee;
+    background-color: var(--color-blue-normal);
 }
 
-.Categories-link[aria-current='page'] .Categories-title {
-    color: rebeccapurple;
-}
-
-.Categories-icon,
-.Categories-title {
-    display: block;
-    color: #000;
-    transition: color .3s;
+.Categories-icon {
+    margin-right: 4px;
 }

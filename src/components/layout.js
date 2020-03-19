@@ -7,10 +7,11 @@
 
 import React from "react"
 import PropTypes from "prop-types"
-import { useStaticQuery, graphql, Link } from "gatsby"
-import Categories from "./categories"
+import { useStaticQuery, graphql } from "gatsby"
 import Header from "./header"
 import BreadCrumb from "./breadcrumb"
+import Searcher from "./searcher"
+import Footer from "./footer"
 import "./layout.css"
 
 const Layout = ({ location, crumbLabel, children }) => {
@@ -27,29 +28,14 @@ const Layout = ({ location, crumbLabel, children }) => {
   return (
     <>
       <Header siteTitle={data.site.siteMetadata.title} />
-      <Categories />
       <div className="Container">
-        <BreadCrumb location={location} label={crumbLabel} />
+        <div className="Page-bottomBar">
+            <BreadCrumb location={location} label={crumbLabel} />
+            <Searcher />
+        </div>
         <main className="Main">{children}</main>
-        <footer className="Footer">
-          <div className="Footer-item">
-            <span>
-              Con{" "}
-              <span role="img" aria-label="Amor">
-                ❤️
-              </span>{" "}
-              desde{" "}
-              <span role="img" aria-label="Casa">
-                🏠
-              </span>{" "}
-              <small>#QuedateEnCasa</small>
-            </span>
-          </div>
-          <div className="Footer-item">
-            <Link to="/autores">Autores</Link>
-          </div>
-        </footer>
       </div>
+      <Footer />
     </>
   )
 }

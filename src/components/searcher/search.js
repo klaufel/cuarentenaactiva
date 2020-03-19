@@ -1,7 +1,6 @@
 import React, { Component } from "react"
 import { Index } from "elasticlunr"
 import { Link } from "gatsby"
-import "./search.css"
 
 // Search component
 export default class Search extends Component {
@@ -17,6 +16,7 @@ export default class Search extends Component {
     return (
       <div className="Search">
         <input
+            className="Input"
           type="text"
           value={this.state.query}
           onChange={this.search}

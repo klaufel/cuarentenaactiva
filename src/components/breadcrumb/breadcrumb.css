@@ -2,10 +2,14 @@
   display: flex;
   flex-wrap: wrap;
   list-style: none;
-  margin: 0 0 20px;
+  margin: 0;
   padding: 0;
+  font-size: 14px;
 }
 
+.Breadcrumb-item {
+  margin: 0;
+}
 .Breadcrumb-item:not(:last-of-type) {
   padding-right: 8px;
 }
@@ -18,7 +22,7 @@
 
 .Breadcrumb-link {
   text-decoration: none;
-  color: inherit;
+  color: var(--color-blue-dark);
 }
 
 .Breadcrumb-link:not(span):hover {
@@ -26,5 +30,5 @@
 }
 
 .Breadcrumb-link--current {
-  font-weight: 700;
+  font-weight: 600;
 }

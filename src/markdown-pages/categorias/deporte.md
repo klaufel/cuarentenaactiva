@@ -22,3 +22,5 @@ Rutinas de entrenamiento gratuitas para grandes y pequeños #quedateencasa
 GYMPASS W - 60 días gratis para usuarios de Gympass
 Entrena en casa con CYBEROBICS https://app.cyberobics.com/
 Descarga gratis la guía con 180 ejercicios para entrenar en casa
+
+![prueba](../images/prueba.jpg)

@@ -1,8 +1,8 @@
 export const categoriesList = [
   {
-    url: "momentos-para-compartir",
-    name: "Compartir",
-    emoji: "🧸",
+    url: "para-compartir",
+    name: "Para compartir",
+    emoji: "🎉",
   },
   {
     url: "formacion",
@@ -12,26 +12,21 @@ export const categoriesList = [
   {
     url: "deporte",
     name: "Deporte",
-    emoji: "👟",
-  },
-  {
-    url: "voluntariado",
-    name: "Voluntariado",
-    emoji: "✋",
-  },
-  {
-    url: "gratis",
-    name: "Gratis",
-    emoji: "💸",
-  },
-  {
-    url: "peques",
-    name: "Peques",
-    emoji: "🐤",
+    emoji: "🏅",
   },
   {
     url: "juegos",
     name: "Juegos",
     emoji: "👾",
+  },
+  {
+    url: "peques",
+    name: "Peques",
+    emoji: "🐣",
+  },
+  {
+    url: "gratis",
+    name: "Gratis",
+    emoji: "🤑",
   },
 ]

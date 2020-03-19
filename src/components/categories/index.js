@@ -4,18 +4,18 @@ import { categoriesList } from "./categoriesList"
 import "./categories.css"
 
 const Categories = () => (
-  <div className="Categories">
-    <div className="Container Categories-container">
+  <nav className="Categories">
+    <ul className="Categories-list">
       {categoriesList.map(category => (
         <Link className="Categories-link" to={category.url}>
-          <span className="Categories-icon" role="img">
+          <span className="Categories-icon" role="img" aria-label="Casa">
             {category.emoji}
-          </span>
-          <span className="Categories-title">{category.name}</span>
+          </span>{" "}
+          {category.name}
         </Link>
       ))}
-    </div>
-  </div>
+    </ul>
+  </nav>
 )
 
 export default Categories

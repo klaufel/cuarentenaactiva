@@ -1,10 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
 :root {
   --color-yellow: #FCDC74;
   --color-blue-dark: #192965;
   --color-blue-normal: #91CEFF;
-  --color-blue-light: #F8FCFF;
+  --color-blue-light: #E7F5FF;
   --color-dark: #000000;
   --color-light: #ffffff;
+
+  --font-family-global: 'Poppins', sans-serif;
 }
 
 html {
@@ -208,8 +212,8 @@ html {
   box-sizing: inherit;
 }
 body {
-  color: hsla(0, 0%, 0%, 0.8);
-  font-family: georgia, serif;
+  color: var(--color-dark);
+  font-family: var(--font-family-global);
   font-weight: normal;
   word-wrap: break-word;
   font-kerning: normal;
@@ -632,35 +636,24 @@ pre tt:after {
 
 .Container {
   margin: 0 auto;
-  max-width: 960px;
+  max-width: 1200px;
   padding: 0 30px;
-}
-
-.Header {
-  padding: 40px 0;
-  background: rebeccapurple;
-}
-
-.Header-container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
 }
 
 .Main {
   padding: 20px 0;
 }
 
-.Footer {
-  border-top: 1px solid #eee;
-  padding: 20px 0;
-  display: flex;
-  justify-content: space-between;
-}
-
-
 .Button {
   padding: 20px;
   display: flex;
   background: var(--color-blue-normal);
+}
+
+
+.Page-bottomBar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 0;
 }

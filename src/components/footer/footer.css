@@ -1,0 +1,20 @@
+.Footer {
+    border-top: 1px solid #eee;
+    padding: 24px 0;
+    display: flex;
+    justify-content: space-between;
+    background: var(--color-blue-light);
+}
+
+.Footer-container {
+    text-align: center;
+}
+
+.Footer-item {
+    margin: 0 auto;
+    font-size: 14px;
+    color: var(--color-blue-dark);
+}
+.Footer-item:not(:last-of-type) {
+    margin-bottom: 8px;
+}

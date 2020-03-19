@@ -1,10 +1,18 @@
 .Header {
-  padding: 40px 0;
-  background: rebeccapurple;
+  padding: 14px 0;
+  background: var(--color-blue-light);
 }
 
 .Header-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+
+.Header-logo {
+  font-size: 24px;
+  font-weight: 600;
+  text-decoration: none;
+  color: var(--color-blue-dark);
 }
