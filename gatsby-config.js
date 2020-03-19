@@ -33,7 +33,6 @@ module.exports = {
         name: `markdown-pages`,
       },
     },
-    `gatsby-transformer-remark`,
     `gatsby-plugin-catch-links`,
     {
       resolve: `gatsby-plugin-catch-links`,
@@ -60,20 +59,7 @@ module.exports = {
         filter: (node, getNode) => node.frontmatter.tags !== "exempt",
       },
     },
-    `gatsby-plugin-sharp`,
-    {
-      resolve: `gatsby-transformer-remark`,
-      options: {
-        plugins: [
-          {
-            resolve: `gatsby-remark-images`,
-            options: {
-              maxWidth: 800,
-            },
-          },
-        ],
-      },
-    },
+    `gatsby-transformer-remark`,
     {
       resolve: `gatsby-transformer-remark`,
       options: {
@@ -83,6 +69,20 @@ module.exports = {
             options: {
               target: "_blank",
               rel: "noopener noreferrer",
+            },
+          },
+        ],
+      },
+    },
+    `gatsby-plugin-sharp`,
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [
+          {
+            resolve: `gatsby-remark-images`,
+            options: {
+              maxWidth: 800,
             },
           },
         ],
