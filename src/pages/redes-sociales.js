@@ -36,7 +36,7 @@ const RedesSociales = () => (
         </li>
         <li>
           <a
-            href="https://www.facebook.com/cuarentenaactiva"
+            href="https://www.facebook.com/CuarentenaActiva-104441361198141/"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -53,7 +53,7 @@ const RedesSociales = () => (
         </li>
         <li>
           <a
-            href="https://twitter.com/cuarentenaactiva"
+            href="https://twitter.com/cuarentenactiva"
             target="_blank"
             rel="noopener noreferrer"
           >
