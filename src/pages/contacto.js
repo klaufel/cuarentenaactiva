@@ -13,10 +13,10 @@ const Contacto = () => (
       <p>Puedes escribirnos a nuestra dirección de email:</p>
       <p>
         <strong>
-          <a href="mailto:hola@cuarentenaactiva.es">hola@cuarentenaactiva.es</a>
+          <a href="mailto:cuarentenaactiva@gmail.com">cuarentenaactiva@gmail.com</a>
         </strong>
       </p>
-      <a className="Button" href="mailto:hola@cuarentenaactiva.es">
+      <a className="Button" href="mailto:cuarentenaactiva@gmail.com">
         Envíanos un email
       </a>
     </div>
