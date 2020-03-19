@@ -4,7 +4,7 @@ import SEO from "../components/seo"
 import Block from "../components/block"
 
 const Home = () => (
-  <Layout location="/" fluid>
+  <Layout location="/">
     <SEO title="Todas estas personas lo hacen posible" />
     <div className="Container Container--intern">
       <h1>¡¡Hola amigo en cuarentena!!</h1>
@@ -25,30 +25,6 @@ const Home = () => (
         compañía con los tuyos a modo virtual o si quieres entretenerte en
         familia.
       </p>
-    </div>
-    <div style={{ backgroundColor: "var(--color-blue-light)", padding: '60px', margin: '80px 0' }}>
-      <div className="Container">
-      <div style={{ display: "flex" }}>
-        <Block
-          icon="👤"
-          description="¿Hoy te apetece realizar alguna actividad solo? ¡Encuentra la que necesitas!"
-          link="/"
-          linkText="Actividad individual"
-        />
-        <Block
-          icon="👨‍👩‍👧‍👦"
-          description="¿Necesitas entretener a la familia? ¡Encuentra la que necesitas!"
-          link="/"
-          linkText="Actividad en familia"
-        />
-        <Block
-          icon="🎉️️️"
-          description="¿Quieres hacer algo con gente que está lejos? ¡Encuentralo aquí!"
-          link="/"
-          linkText="Actividad en grupo"
-        />
-      </div>
-      </div>
     </div>
   </Layout>
 )

@@ -12,16 +12,16 @@ export default function Template({ data }) {
     <Layout location={frontmatter.path} crumbLabel={frontmatter.title} fluid>
       <SEO title={frontmatter.title} />
       <div className="Container Container--intern">
-          <h1>{frontmatter.title}</h1>
-          {/*<h2>{frontmatter.date}</h2>*/}
-          <div
-            className="blog-post-content"
-            dangerouslySetInnerHTML={{ __html: html }}
-          />
-          <br />
-          <br />
-          <br />
-          <Link to="/">Volver a la página de inicio</Link>
+        <h1>{frontmatter.title}</h1>
+        {/*<h2>{frontmatter.date}</h2>*/}
+        <div
+          className="blog-post-content"
+          dangerouslySetInnerHTML={{ __html: html }}
+        />
+        <br />
+        <br />
+        <br />
+        <Link to="/">Volver a la página de inicio</Link>
       </div>
     </Layout>
   )
