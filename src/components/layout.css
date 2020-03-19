@@ -656,7 +656,13 @@ pre tt:after {
 }
 
 .Main {
-  padding: 40px 0;
+  padding: 20px 0;
+}
+
+@media(min-width: 768px) {
+  .Main {
+    padding: 40px 0;
+  }
 }
 
 .Button {
@@ -704,4 +710,10 @@ a:hover {
   font-size: 100px;
   line-height: 1;
   display: block;
+}
+
+@media(max-width: 767px) {
+  .Main h1 {
+    font-size: 30px;
+  }
 }
