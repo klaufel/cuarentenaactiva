@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
     title: `#CuarentenaActiva`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    description: `Sabemos que son tiempos complicados y que es posible que necesites gestionar de algún modo el tiempo que vas a pasar en casa.`,
+    author: ``,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
