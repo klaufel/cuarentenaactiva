@@ -7,7 +7,7 @@ import "./breadcrumb.css"
 const BreadCrumb = ({ location, label }) => {
   const breads = location.split("/")
   let url
-  return (
+  return location && (
     <ul className="Breadcrumb">
       <li className="Breadcrumb-item">
         <Link className="Breadcrumb-link" to={"/"}>
