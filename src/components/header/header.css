@@ -18,12 +18,17 @@
 
 
 .Header-logo {
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 600;
   text-decoration: none;
   color: var(--color-blue-dark);
 }
 
+@media(min-width: 768px) {
+  .Header-logo {
+    font-size: 24px;
+  }
+}
 
 .Header-logo:hover .Header-logoSmile {
   transform: rotate(45deg) translateY(-6px);
