@@ -1,31 +1,31 @@
 export const categoriesList = [
   {
-    url: "para-compartir",
+    url: "/para-compartir",
     name: "Para compartir",
     emoji: "🎉",
   },
   {
-    url: "formacion",
+    url: "/formacion",
     name: "Formación",
     emoji: "📖",
   },
   {
-    url: "deporte",
+    url: "/deporte",
     name: "Deporte",
     emoji: "🏅",
   },
   {
-    url: "juegos",
+    url: "/juegos",
     name: "Juegos",
     emoji: "👾",
   },
   {
-    url: "peques",
+    url: "/peques",
     name: "Peques",
     emoji: "🐣",
   },
   {
-    url: "gratis",
+    url: "/gratis",
     name: "Gratis",
     emoji: "🤑",
   },

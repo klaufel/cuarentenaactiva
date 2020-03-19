@@ -25,10 +25,10 @@ const Sitemap = () => (
   <div className="Sitemap">
     <div className="Container">
       <ul className="Sitemap-list">
-        {siteMapElements.map(element => {
+        {siteMapElements.map((element, index) => {
           const { url, title } = element
           return (
-            <li className="Sitemap-item">
+            <li className="Sitemap-item" key={index}>
               <Link className="Sitemap-link" to={url}>
                 {title}
               </Link>

@@ -13,9 +13,10 @@ import BreadCrumb from "./breadcrumb"
 import Searcher from "./searcher"
 import Sitemap from "./sitemap"
 import Footer from "./footer"
-import Block from "./block"
 import "./layout.css"
 import "./blockfooter.css"
+import BlockGroup from "./blockgroup"
+import { blockGroupItems } from "./layoutContent"
 
 const Layout = ({ location, crumbLabel, children }) => {
   const data = useStaticQuery(graphql`
@@ -41,36 +42,7 @@ const Layout = ({ location, crumbLabel, children }) => {
       <div className="Container Container--intern">
         <main className="Main">{children}</main>
       </div>
-      <div
-        style={{
-          backgroundColor: "var(--color-blue-light)",
-          padding: "40px 0",
-          margin: "60px 0",
-        }}
-      >
-        <div className="Container">
-          <div style={{ display: "flex", flexWrap: "wrap" }}>
-            <Block
-              icon="👤"
-              description="¿Hoy te apetece realizar alguna actividad solo? ¡Encuentra la que necesitas!"
-              link="/"
-              linkText="Actividad individual"
-            />
-            <Block
-              icon="👨‍👩‍👧‍👦"
-              description="¿Necesitas entretener a la familia? ¡Encuentra la que necesitas!"
-              link="/"
-              linkText="Actividad en familia"
-            />
-            <Block
-              icon="🎉️️️"
-              description="¿Quieres hacer algo con gente que está lejos? ¡Encuentralo aquí!"
-              link="/"
-              linkText="Actividad en grupo"
-            />
-          </div>
-        </div>
-      </div>
+        <BlockGroup items={blockGroupItems} />
       {(!location || location === "/" || location === "") && (
         <div className="BlocksFooter">
           <div className="Container Container--intern">
