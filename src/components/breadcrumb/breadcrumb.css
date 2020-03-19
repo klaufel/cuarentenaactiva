@@ -15,7 +15,7 @@
 }
 
 .Breadcrumb-item:not(:first-of-type)::before {
-  content: '<';
+  content: '>';
   padding-right: 8px;
   opacity: .5;
 }

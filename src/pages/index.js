@@ -1,11 +1,10 @@
 import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import { Link } from "gatsby"
 import Block from "../components/block"
 
 const Home = () => (
-  <Layout location="/autores" crumbLabel="Autores" fluid>
+  <Layout location="/" fluid>
     <SEO title="Todas estas personas lo hacen posible" />
     <div className="Container">
       <h1>¡¡Hola amigo en cuarentena!!</h1>
