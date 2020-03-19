@@ -19,7 +19,7 @@ const RedesSociales = () => (
       >
         <li>
           <a
-            href="https://www.instagram.com/cuarentenaactiva/"
+            href="https://www.instagram.com/cuarentenaactivaweb/"
             target="_blank"
             rel="noopener noreferrer"
           >
