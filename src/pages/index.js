@@ -6,7 +6,7 @@ import Block from "../components/block"
 const Home = () => (
   <Layout location="/" fluid>
     <SEO title="Todas estas personas lo hacen posible" />
-    <div className="Container">
+    <div className="Container Container--intern">
       <h1>¡¡Hola amigo en cuarentena!!</h1>
       <p>
         Sabemos que son tiempos complicados y que es posible que necesites

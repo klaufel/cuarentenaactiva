@@ -1,6 +1,6 @@
 .Header {
-  padding: 14px 0;
-  background: var(--color-blue-light);
+  padding: 14px 0 0;
+  background: var(--color-light);
 }
 
 .Header-container {
@@ -15,4 +15,14 @@
   font-weight: 600;
   text-decoration: none;
   color: var(--color-blue-dark);
+}
+
+
+.Header-logo:hover .Header-logoSmile {
+  transform: rotate(45deg) translateY(-6px);
+}
+
+.Header-logoSmile {
+  display: inline-block;
+  transition: transform .4s;
 }

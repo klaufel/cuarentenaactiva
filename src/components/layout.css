@@ -640,12 +640,16 @@ pre tt:after {
   padding: 0 30px;
 }
 
+.Container--intern {
+  max-width: 960px;
+}
+
 .Container--fluid {
   max-width: 100%;
 }
 
 .Main {
-  padding: 20px 0;
+  padding: 40px 0;
 }
 
 .Button {

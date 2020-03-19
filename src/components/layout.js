@@ -34,7 +34,7 @@ const Layout = ({ location, crumbLabel, fluid, children }) => {
           <Searcher />
         </div>
       </div>
-      <div className={!fluid && "Container"}>
+      <div className={!fluid && 'Container Container--intern'}>
         <main className="Main">{children}</main>
       </div>
       <Footer />
