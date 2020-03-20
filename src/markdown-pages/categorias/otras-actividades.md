@@ -17,3 +17,5 @@ Aquí encontrarás varios recursos como sesiones DJ, herramientas para generar c
 - [Revistas Vogue, Vanity Fair, Glamour, AD, GQ, gratuitas en formato descargable PDF](https://www.revistavanityfair.es/la-revista/articulos/leer-vanity-fair-descarga-pdf/43926).
 - Descarga libros gratis desde [Freeditorial](https://freeditorial.com/es).
 - Entra en el perfil de Instagram de [Ia Ora Tahiti Madrid](https://www.instagram.com/iaoratahitimad/) y entérate de cómo aprender danza balinesa.
+- ¡Imposible aburrirte! [soloencasafestival](https://www.instagram.com/soloencasafestival/) es otro perfil de [Instagram](https://www.instagram.com/soloencasafestival/) que nos permite realizar manualidades, deporte, nos enseña a cocinar… además de sacarnos una sonrisa con sus [publicaciones](https://www.instagram.com/p/B99NVU-iczL/).
+- La Opinión de Poza Rica nos trae un montón de alternativas para poder visitar [museos y festivales](https://www.laopinion.net/no-te-aburras-visita-museos-y-festivales-en-forma-virtual-2/) de forma virtual.
