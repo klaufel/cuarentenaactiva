@@ -1,6 +1,7 @@
 .BlocksFooter {
     display: flex;
-    margin-bottom: 60px;
+    padding: 40px;
+    background-color: var(--color-blue-light);
 }
 
 .BlockFooter-item {

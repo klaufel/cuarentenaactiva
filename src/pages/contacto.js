@@ -13,7 +13,9 @@ const Contacto = () => (
       <p>Puedes escribirnos a nuestra dirección de email:</p>
       <p>
         <strong>
-          <a href="mailto:cuarentenaactiva@gmail.com">cuarentenaactiva@gmail.com</a>
+          <a href="mailto:cuarentenaactiva@gmail.com">
+            cuarentenaactiva@gmail.com
+          </a>
         </strong>
       </p>
       <a className="Button" href="mailto:cuarentenaactiva@gmail.com">
