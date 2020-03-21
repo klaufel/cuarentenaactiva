@@ -4,6 +4,10 @@ import "./sitemap.css"
 
 const siteMapElements = [
   {
+    url: '/informacion-covid19-coronavirus',
+    title: 'COVID-19'
+  },
+  {
     url: "/autores",
     title: "Autores",
   },
