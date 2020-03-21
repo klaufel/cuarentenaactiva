@@ -15,4 +15,4 @@ Te dejamos una recopilación de recursos con los que podrás acceder a aulas y j
 - [Aula365](http://www.aula365.com/) es una red de aprendizaje que además, contiene juegos para los más peques de la casa.
 - [Smile and learn](https://smileandlearn.com/) encuentra más de 5.000 actividades educativas para niños de 3 a 12 años.
 - [Santillana](https://proyectos.santillana.com/) abre su entorno virtual de aprendizaje asociado a los cuadernos Santillana. También dispondrás de un espacio de intercambio para organizar y compartir tus documentos con tu grupo de trabajo. [Usuario:‌ santillana Contraseña: santillana](https://proyectos.santillana.com/)
-- [Educlan](https://www.rtve.es/educlan/): ClanTV lanzan una herramienta educativa para las familias durante el cierre de centros educativos. Contenidos audiovisuales para niños de 3 a 10 años.
+- [Youtube Learning](https://learnathome.withyoutube.com/), iniciativa que ofrece canales gratuitos para familias, estudiantes y pequeños de diferentes edades.
