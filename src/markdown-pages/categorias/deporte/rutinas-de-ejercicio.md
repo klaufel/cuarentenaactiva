@@ -16,4 +16,4 @@ Gestiona tu tiempo y haz deporte cuando quieras o puedas, ¡no busques más excu
 - David, licenciado en Ciencias del Deporte y ha creado [@cuarentrenar](https://instagram.com/cuarentrenar?igshid=fo1vbt61tt3v) donde encontrarás programas de entrenamiento y otros trucos para mantenerte en forma desde casa, no esperes más y dale caña!
 - ¿Eres amante del crossfit? En [@lapizarradelcoach](https://instagram.com/lapizarradelcoach?igshid=1b71bq65wsvbg) encontrarás un montón de rutinas y trucos. Además, en [Zona Wod](https://www.zonawod.com/wods-de-crossfit-en-casa/) nos han dejado 15 pizarras para seguir disfrutando del crossfit desde casa.
 - Inspira...Expira...Y haz yoga desde tu salón con Xuan Lan Yoga encontrarás rutinas tanto en su cuenta de Instagram @[xuanlanyoga](https://www.instagram.com/xuanlanyoga/) como a través de su cuenta de [YouTube](https://www.youtube.com/user/yogalanbcn).
-- [GOWOD Mobility Firs](https://www.gowod.app/), ofrece 40 días gratis en la primera inscripción premium utilizando el código: *COMUNIDAD*
+- [GOWOD Mobility Firs](https://www.gowod.app/), ofrece 40 días gratis en la primera inscripción premium utilizando el código: _COMUNIDAD_

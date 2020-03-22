@@ -4,7 +4,7 @@ date: "2020-03-18"
 title: "Un poco de todo"
 ---
 
-Podcasts, canales de Youtube, agenda de eventos con charlas... ¿Por dónde vas a empezar? 
+Podcasts, canales de Youtube, agenda de eventos con charlas... ¿Por dónde vas a empezar?
 
 - [So don´t take me out](https://www.notion.so/So-don-t-take-me-out-3fd57cd54ca44faabda7dff71548fac6) se trata de un calendario de eventos que se realizarán de forma virtual.
 - [Ivoox](https://www.ivoox.com/) te permite tanto crear como escuchar podcasts de cualquier temática de forma gratuita.
