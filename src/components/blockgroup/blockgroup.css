@@ -1,11 +1,8 @@
 .BlockGroup {
-    padding: 0 0 40px;
+  padding: 0 0 40px;
 }
-
 
 .BlockGroup-items {
-    display: flex;
-    flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
-
-

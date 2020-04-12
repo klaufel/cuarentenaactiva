@@ -29,4 +29,9 @@ export const categoriesList = [
     name: "Gratis",
     emoji: "🤑",
   },
+  {
+    url: "/calendario",
+    name: "Calendario",
+    emoji: "🗓",
+  },
 ]

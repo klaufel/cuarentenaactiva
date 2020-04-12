@@ -1,14 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
 
 :root {
-  --color-yellow: #FCDC74;
+  --color-yellow: #fcdc74;
   --color-blue-dark: #192965;
-  --color-blue-normal: #91CEFF;
-  --color-blue-light: #E7F5FF;
+  --color-blue-normal: #91ceff;
+  --color-blue-light: #e7f5ff;
   --color-dark: #000000;
   --color-light: #ffffff;
 
-  --font-family-global: 'Poppins', sans-serif;
+  --font-family-global: "Poppins", sans-serif;
 }
 
 html {
@@ -636,14 +636,14 @@ pre tt:after {
 
 .Container {
   margin: 0 auto;
-  max-width: 1200px;
+  max-width: 1280px;
   padding: 0 20px;
 }
 
-@media(min-width: 768px) {
+@media (min-width: 768px) {
   .Container {
-  padding-left: 30px;
-  padding-right: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
   }
 }
 
@@ -659,7 +659,7 @@ pre tt:after {
   padding: 20px 0;
 }
 
-@media(min-width: 768px) {
+@media (min-width: 768px) {
   .Main {
     padding: 40px 0;
   }
@@ -681,7 +681,6 @@ pre tt:after {
   color: var(--color-yellow);
 }
 
-
 .Page-bottomBar {
   display: flex;
   justify-content: space-between;
@@ -689,7 +688,7 @@ pre tt:after {
   flex-direction: column-reverse;
 }
 
-@media(min-width: 768px) {
+@media (min-width: 768px) {
   .Page-bottomBar {
     align-items: center;
     flex-direction: row;
@@ -699,7 +698,7 @@ pre tt:after {
 a {
   color: var(--color-blue-dark);
   text-decoration: none;
-  transition: color .2s;
+  transition: color 0.2s;
 }
 
 a:hover {
@@ -712,7 +711,7 @@ a:hover {
   display: block;
 }
 
-@media(max-width: 767px) {
+@media (max-width: 767px) {
   .Main h1 {
     font-size: 30px;
   }

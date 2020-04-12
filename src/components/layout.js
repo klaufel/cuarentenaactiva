@@ -16,6 +16,7 @@ import Footer from "./footer"
 import "./layout.css"
 import "./blockfooter.css"
 import BlockGroup from "./blockgroup"
+import Calendar from "./calendar"
 import { blockGroupItems } from "./layoutContent"
 
 const Layout = ({ location, crumbLabel, children }) => {
@@ -43,6 +44,24 @@ const Layout = ({ location, crumbLabel, children }) => {
         <main className="Main">{children}</main>
       </div>
       <BlockGroup items={blockGroupItems} />
+      {location === "/" && (
+        <div
+          className="Container Container--intern"
+          style={{
+            paddingTop: "40px",
+            paddingBottom: "40px",
+            textAlign: "center",
+          }}
+        >
+          <h3>
+            🗓
+            <br />
+            <br />
+            Planea tus días con este calendario
+          </h3>
+          <Calendar />
+        </div>
+      )}
       <div className="BlocksFooter">
         <div className="Container Container--intern">
           <div className="BlockFooter-item">
