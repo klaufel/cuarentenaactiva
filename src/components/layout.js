@@ -10,7 +10,7 @@ import PropTypes from "prop-types"
 import { useStaticQuery, graphql, Link } from "gatsby"
 import Header from "./header"
 import BreadCrumb from "./breadcrumb"
-//import Searcher from "./searcher"
+import Searcher from "./searcher"
 import Sitemap from "./sitemap"
 import Footer from "./footer"
 import "./layout.css"
@@ -37,7 +37,7 @@ const Layout = ({ location, crumbLabel, children }) => {
       <div className="Container">
         <div className="Page-bottomBar">
           <BreadCrumb location={location} label={crumbLabel} />
-          {/*<Searcher />*/}
+          <Searcher />
         </div>
       </div>
       <div className="Container Container--intern">
@@ -50,15 +50,9 @@ const Layout = ({ location, crumbLabel, children }) => {
           style={{
             paddingTop: "40px",
             paddingBottom: "40px",
-            textAlign: "center",
           }}
         >
-          <h3>
-            🗓
-            <br />
-            <br />
-            Planea tus días con este calendario
-          </h3>
+          <h3>🗓 Planea tus días con este calendario</h3>
           <Calendar />
         </div>
       )}
