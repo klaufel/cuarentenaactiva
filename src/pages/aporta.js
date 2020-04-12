@@ -14,6 +14,7 @@ const Aporta = () => (
       href="https://docs.google.com/forms/d/e/1FAIpQLScA54vj6jUjbkUf4_QiMrAT96OM1ABJ1XswXH2DwEhHik94tA/viewform?usp=sf_link"
       target="_blank"
       className="Button Button--secondary"
+      rel="noopener noreferrer"
     >
       Rellena este formulario
     </a>

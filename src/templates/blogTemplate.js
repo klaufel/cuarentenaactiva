@@ -20,8 +20,7 @@ export default function Template({ data }) {
           dangerouslySetInnerHTML={{ __html: html }}
         />
       </article>
-      <a
-        href="#"
+      <span
         onClick={event => {
           event.preventDefault()
           window.history.back()
@@ -29,7 +28,7 @@ export default function Template({ data }) {
         style={{ fontSize: "14px", cursor: "pointer" }}
       >
         Volver atrás
-      </a>
+      </span>
     </Layout>
   )
 }

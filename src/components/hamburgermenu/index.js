@@ -15,7 +15,7 @@ const HamburgerMenu = () => {
   }
   return (
     <div className="HamburgerMenu">
-      <span className={classNameButton} onClick={handleOpen}>
+      <span className={classNameButton} onClick={handleOpen} tabindex="0" role="button" aria-pressed="false">
         <svg
           className="HamburgerMenu-icon"
           height="32px"
